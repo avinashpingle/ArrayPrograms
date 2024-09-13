@@ -14,7 +14,8 @@ public class FindOccurrenceOfGivenNumber {
 	
 	public static void main(String[] args) {
 		int[] arr = {21,67,45,21,33,67,21,89}; //Input array
-		int num = 21; //Number that we want to search
+		int num = 21;
+				; //Number that we want to search
 		int count = occurrenceOf(arr, 21);
 		System.out.println(num+" occurres "+ count+" times.");
 	}
